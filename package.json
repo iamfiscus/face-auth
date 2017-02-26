@@ -1,0 +1,17 @@
+{
+  "name": "face-auth",
+  "version": "1.0.0",
+  "description": "Facial authentication using AWS Rekognition, Serverless Architecture, Internet of Things, and BeagleBone",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Jd Fiscus",
+  "license": "MIT",
+  "devDependencies": {
+    "claudia": "^2.9.0"
+  },
+  "dependencies": {
+    "claudia-api-builder": "^2.4.0"
+  }
+}
