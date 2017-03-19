@@ -1,20 +1,7 @@
 {
-  "name": "html",
+  "name": "scaffold-faceauth",
   "private": true,
   "dependencies": {
-    "bootstrap": "~4.0.0-alpha.6",
-    "webcam": "^1.0.0"
-  },
-  "overrides": {
-    "bootstrap": {
-      "main": [
-        "scss/bootstrap.scss",
-        "dist/js/bootstrap.js"
-      ]
-    }
-  },
-  "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^3.2.0"
+    "normalize-css": "normalize.css#^5.0.0"
   }
 }

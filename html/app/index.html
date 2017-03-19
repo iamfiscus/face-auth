@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>scaffold faceauth</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-8 offset-2">
+          <form>
+
+            <!-- video element containing user's image -->
+            <div class="form-group">
+              <video class="video-disabled mirror" id="video-mirror" muted></video>
+            </div>
+            <!-- camera enable button -->
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="checkbox" id="enable-camera" class="form-check-input"> Enable camera
+              </label>
+              <small id="emailHelp" class="form-text text-muted">We need access to your camera to take your picture</small>
+            </div>
+            <!-- email input field -->
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <!-- password input field -->
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" class="form-control" id="password" placeholder="Create a password">
+            </div>
+            <!-- create account button -->
+            <button type="submit" id="register" class="btn btn-primary">Create Account</button>
+
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
